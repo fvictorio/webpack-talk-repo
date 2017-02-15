@@ -1,0 +1,6 @@
+#content {
+  max-width: 1000px;
+  margin: auto;
+  font-size: 2rem;
+  overflow-wrap: break-word;
+}
