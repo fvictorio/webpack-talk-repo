@@ -21,6 +21,9 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    publicPath: '/dist'
+    publicPath: '/dist',
+    proxy: {
+      '/random': 'http://localhost:8000'
+    }
   }
 }
