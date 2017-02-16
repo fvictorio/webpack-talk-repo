@@ -5,6 +5,7 @@ export {
 };
 
 function randomText(n = 100) {
+  console.info(`Generating ${n} random characters`);
   return _.range(n)
     .map(x => randomLetter())
     .join('');
